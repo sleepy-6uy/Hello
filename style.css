@@ -1,0 +1,79 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+    body {
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    font-family: sans-serif;
+    background-image: url(rosy\ background.jpg);
+
+}
+.main {
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    height: 300px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: 2px 15px 20px rgba(0, 0, 0, 0.7);
+    height: 80%;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 50px;
+    background-image: linear-gradient(to right, pink, rgb(211, 53, 53), pink);
+    color: transparent;
+    background-clip: text;
+   
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 0px 150px;
+    height: 70px;
+    width: 200px;
+    background-color: rgb(233, 146, 146);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 15px 20px rgba(0, 0, 0, 0.7);
+    font-size: 40px;
+
+  
+    transition: transform 0.2s ease;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: black;
+}
+a:active {
+color: rgb(247, 164, 164);
+}
+button:hover {
+    
+    background: red;
+}
+
+
+button:active {
+    background-color: gray;
+    
+}
